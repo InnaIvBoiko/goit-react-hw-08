@@ -14,11 +14,11 @@ export default function Contact({ contact: { id, name, number } }) {
         <div className={css.container}>
             <ul className={css.list}>
                 <li className={css.item}>
-                    {<FaUser size={16} />}
+                    {<FaUser size={16} color={'#243e36'} />}
                     <p>{name}</p>
                 </li>
                 <li className={css.item}>
-                    {<FaPhone size={16} />}
+                    {<FaPhone size={16} color={'#243e36'} />}
                     <p>{number}</p>
                 </li>     
             </ul>
